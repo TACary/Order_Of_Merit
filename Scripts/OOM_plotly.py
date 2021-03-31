@@ -15,16 +15,60 @@ import pandas as pd
 
 df = pd.read_csv(r"C:\Users\Tim\Documents\Python Scripts\OOM_results.csv")
 
+totals = df[df['Event']=='Total']
+totals = totals[['Player','Rank','Points']]
+df = df.astype({'Points': 'int32'})
+fig_totals = ff.create_table(totals)
+
+fig_totals.update_layout(width=500)
+
+df = df[df['Event']!='Total']
+
+df=df.astype({'Front 9': 'int32','Back 9': 'int32','Total Gross': 'int32','Total Net': 'int32'})
+
+
 Event = df['Event'].unique()
+
+fig = ff.create_table(df)
 
 app = dash.Dash(__name__)
 server = app.server
+fig_totals = ff.create_table(totals)
+fig_totals.update_layout(width=500)
 
+app.layout = html.Div(children=[
+    html.H1(
+        children='Order Of Merit Standings',
+        style={
+            'textAlign': 'center',
+            'font-size':'50px'
+        }
+    ),
+    
 
-app.layout = html.Div([
-    html.Div([dcc.Dropdown(id='Event-select', options=[{'label': i, 'value': i} for i in Event],
-                           value='Event', style={'width': '140px'})]),
-    dcc.Graph(id='table',figure=fig)
+    dcc.Graph(figure=fig_totals,
+              style={'display':'block','margin-right':'Auto','margin-left':'Auto','width': '50%'}
+             ),
+
+    
+    html.H1(
+        children='Event Results',
+        style={
+            'textAlign': 'center',
+            'font-size':'50px'
+        }
+    ),
+    
+    html.Label('Select Event',style={'font-size':'20px'}),
+    dcc.Dropdown(id='Event-select', options=[{'label': i, 'value': i} for i in Event],
+                           value=Event[-1], style={'width': '140px','font-size':'20px'}
+                ),
+    
+    dcc.Graph(
+        id='table',
+        figure=fig,
+        style={'display':'block','margin-right':'Auto','margin-left':'Auto','width': '50%'}
+    )
 ])
 
 @app.callback(
