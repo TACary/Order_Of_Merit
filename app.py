@@ -6,10 +6,10 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import pandas as pd
 
-#url = 'https://raw.githubusercontent.com/TACary/Order_Of_Merit/main/Data/OOM_results.csv'
-#df = pd.read_csv(url)
+url = 'https://raw.githubusercontent.com/TACary/Order_Of_Merit/main/Data/OOM_results.csv'
+df = pd.read_csv(url)
 
-df=pd.read_csv('OOM_results.csv')
+#df=pd.read_csv('OOM_results.csv')
 
 totals = df[df['Event']=='Total']
 totals = totals[['Player','Rank','Points']]
