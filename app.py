@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 30 17:59:50 2021
-
-@author: Tim
-"""
-
 import plotly.express as px
 import plotly.figure_factory as ff
 import dash
@@ -13,7 +6,12 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import pandas as pd
 
-df = pd.read_csv('OOM_results.csv')
+
+#url = 'https://raw.githubusercontent.com/TACary/Order_Of_Merit/main/Data/OOM_results.csv'
+#df = pd.read_csv(url)
+
+df=pd.read_csv('OOM_results.csv')
+
 
 totals = df[df['Event']=='Total']
 totals = totals[['Player','Rank','Points']]
@@ -33,6 +31,7 @@ fig = ff.create_table(df)
 
 app = dash.Dash(__name__)
 server = app.server
+
 fig_totals = ff.create_table(totals)
 fig_totals.update_layout(width=500)
 
