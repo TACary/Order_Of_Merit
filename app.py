@@ -41,7 +41,7 @@ server=app.server
 app.layout = html.Div([
     dbc.Row([
         dbc.Col([
-            html.Div('Order of Merit Current Standings',
+            html.Div('Kissel is a Fag',
                      style={'textAlign':'center', 'fontSize':30}),
             html.Br(),
         ], width={'size': 8})
