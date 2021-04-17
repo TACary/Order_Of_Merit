@@ -1,13 +1,12 @@
-import pandas as pd
-import plotly.express as px
-import plotly.figure_factory as ff
 import dash
-import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input, Output
-import dash_table
+from dash.dependencies import Output, Input
+import dash_bootstrap_components as dbc
 
+import plotly.express as px
+import pandas as pd
+import plotly.figure_factory as ff
 
 url = 'https://raw.githubusercontent.com/TACary/Order_Of_Merit/main/Data/OOM_results.csv'
 df = pd.read_csv(url)
