@@ -8,8 +8,8 @@ import plotly.express as px
 import pandas as pd
 import plotly.figure_factory as ff
 
-url = 'https://raw.githubusercontent.com/TACary/Order_Of_Merit/OOM2/Data/OOM_results.csv'
-df = pd.read_csv(url)
+#url = 'https://raw.githubusercontent.com/TACary/Order_Of_Merit/OOM2/Data/OOM_results.csv'
+df = pd.read_csv('OOM_results.csv')
 
 #df=pd.read_csv('OOM_results.csv')
 
