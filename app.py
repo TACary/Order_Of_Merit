@@ -18,7 +18,7 @@ totals = totals[['Player','Points']]
 df = df.astype({'Points': 'int32'})
 fig_totals = ff.create_table(totals)
 
-fig_totals.update_layout(width=500)
+#fig_totals.update_layout(width=500)
 
 df = df[df['Event']!='Total']
 
@@ -41,7 +41,7 @@ server=app.server
 app.layout = html.Div([
     dbc.Row([
         dbc.Col([
-            html.Div('Kissel is a Fag',
+            html.Div('Order of Merit Overall Standings',
                      style={'textAlign':'center', 'fontSize':30}),
             html.Br(),
         ], width={'size': 8})
