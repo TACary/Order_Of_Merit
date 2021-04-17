@@ -50,6 +50,7 @@ app.layout = html.Div([
     dbc.Row([
         dbc.Col([
             dcc.Graph(figure=fig_totals),
+            html.Br(),
         ], xs=10, sm=8, md=5, lg=6, xl=5),
         ], justify="center"),
     
