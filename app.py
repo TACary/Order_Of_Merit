@@ -36,6 +36,8 @@ app = dash.Dash(__name__,
                             'content': 'width=device-width, initial-scale=1.0, maximum-scale=1.2, minimum-scale=0.5,'}]
                 )
 
+server=app.server
+
 app.layout = html.Div([
     dbc.Row([
         dbc.Col([
