@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Player,Event,Front 9,Back 9,Total Gross,Total Net,Rank,Points
 Greg<br>Nixon,Week 1,34,36,70,66,1,25
 Dean<br>Meppam,Week 1,34,36,70,66,2,18
@@ -14,3 +15,21 @@ Kurtis<br>Hrycan,Total,,,,,2,37
 Dean<br>Meppam,Total,,,,,3,36
 Freddy<br>Schweiger,Total,,,,,4,30
 Tim<br>Cary,Total,,,,,5,20
+=======
+Player,Event,Front 9,Back 9,Total Gross,Total Net,Rank,Points
+Greg<br>Nixon,Week 1,34,36,70,66,1,25
+Dean<br>Meppam,Week 1,34,36,70,66,2,18
+Freddy<br>Schweiger,Week 1,35,36,71,66,3,15
+Kurtis<br>Hrycan,Week 1,36,35,71,67,4,12
+Tim<br>Cary,Week 1,36,36,72,73,5,10
+Kurtis<br>Hrycan,Week 2,35,35,70,64,1,25
+Dean<br>Meppam,Week 2,34,36,70,65,2,18
+Freddy<br>Schweiger,Week 2,35,34,69,66,3,15
+Greg<br>Nixon,Week 2,34,35,69,69,4,12
+Tim<br>Cary,Week 2,35,36,71,71,5,10
+Greg<br>Nixon,Total,,,,,1,37
+Kurtis<br>Hrycan,Total,,,,,2,37
+Dean<br>Meppam,Total,,,,,3,36
+Freddy<br>Schweiger,Total,,,,,4,30
+Tim<br>Cary,Total,,,,,5,20
+>>>>>>> bc3b12984a358ecc3a36c58bb1ed48ebd093b8b1
