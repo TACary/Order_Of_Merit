@@ -1,10 +1,13 @@
+import pandas as pd
 import plotly.express as px
 import plotly.figure_factory as ff
 import dash
+import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import pandas as pd
+import dash_table
+
 
 url = 'https://raw.githubusercontent.com/TACary/Order_Of_Merit/main/Data/OOM_results.csv'
 df = pd.read_csv(url)
@@ -12,7 +15,7 @@ df = pd.read_csv(url)
 #df=pd.read_csv('OOM_results.csv')
 
 totals = df[df['Event']=='Total']
-totals = totals[['Player','Rank','Points']]
+totals = totals[['Player','Points']]
 df = df.astype({'Points': 'int32'})
 fig_totals = ff.create_table(totals)
 
@@ -22,50 +25,50 @@ df = df[df['Event']!='Total']
 
 df=df.astype({'Front 9': 'int32','Back 9': 'int32','Total Gross': 'int32','Total Net': 'int32'})
 
+df = df.drop(['Front 9','Back 9','Rank','Total Gross'],axis = 1)
 
 Event = df['Event'].unique()
 
 fig = ff.create_table(df)
 
-app = dash.Dash(__name__)
-server = app.server
+app = dash.Dash(__name__,
+                external_stylesheets=[dbc.themes.BOOTSTRAP],
+                meta_tags=[{'name': 'viewport',
+                            'content': 'width=device-width, initial-scale=1.0, maximum-scale=1.2, minimum-scale=0.5,'}]
+                )
 
-fig_totals = ff.create_table(totals)
-fig_totals.update_layout(width=500)
-
-app.layout = html.Div(children=[
-    html.H1(
-        children='Order Of Merit Standings',
-        style={
-            'textAlign': 'center',
-            'font-size':'50px'
-        }
-    ),
+app.layout = html.Div([
+    dbc.Row([
+        dbc.Col([
+            html.Div('Order of Merit Current Standings',
+                     style={'textAlign':'center', 'fontSize':30}),
+            html.Br(),
+        ], width={'size': 8})
+    ], justify='center'),
     
-
-    dcc.Graph(figure=fig_totals,
-              style={'display':'block','margin-right':'Auto','margin-left':'Auto','width': '50%'}
-             ),
-
+    dbc.Row([
+        dbc.Col([
+            dcc.Graph(figure=fig_totals),
+        ], xs=10, sm=8, md=5, lg=6, xl=5),
+        ], justify="center"),
     
-    html.H1(
-        children='Event Results',
-        style={
-            'textAlign': 'center',
-            'font-size':'50px'
-        }
-    ),
+    dbc.Row([
+        dbc.Col([
+            html.Div('Event Results',
+                     style={'textAlign':'center', 'fontSize':30}),
+            html.Br(),
+        ], width={'size': 8})
+    ], justify='center'),
     
-    html.Label('Select Event',style={'font-size':'20px'}),
-    dcc.Dropdown(id='Event-select', options=[{'label': i, 'value': i} for i in Event],
-                           value=Event[-1], style={'width': '140px','font-size':'20px'}
-                ),
-    
-    dcc.Graph(
-        id='table',
-        figure=fig,
-        style={'display':'block','margin-right':'Auto','margin-left':'Auto','width': '50%'}
-    )
+    dbc.Row([
+        dbc.Col([
+                html.P("Select Event:", style={'fontSize': 15}),
+                dcc.Dropdown(id='Event-select', value=Event[-1],
+                             options=[{'label': i, 'value': i} for i in Event],
+                             ),
+                dcc.Graph(id='table',figure=fig),
+            ], xs=10, sm=5, md=5, lg=6, xl=5)
+        ], justify="center")
 ])
 
 @app.callback(
@@ -75,7 +78,9 @@ app.layout = html.Div(children=[
 def update_graph(event):
     import plotly.express as px
     import plotly.figure_factory as ff
-    return ff.create_table(df[df['Event']==event])
+    fig1=ff.create_table(df[df['Event']==event])
+    #fig1.update_layout(margin={"r": 30, "t": 57, "l": 30, "b": 23})
+    return fig1
 
 if __name__ == '__main__':
     app.run_server(debug=False)
