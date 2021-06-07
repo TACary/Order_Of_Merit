@@ -15,7 +15,7 @@ df = pd.read_csv('OOM_results.csv')
 
 totals = df[df['Event']=='Total']
 totals = totals[['Player','Points']]
-df = df.astype({'Points': 'int32'})
+df = df.astype({'Points': 'float64'})
 fig_totals = ff.create_table(totals)
 
 #fig_totals.update_layout(width=500)
