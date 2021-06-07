@@ -1,21 +1,29 @@
 Player,Event,Front 9,Back 9,Total Gross,Total Net,Rank,Points
-Kurtis <br>Hrycan,Week 1,39,36,75,71,1,18.75
-Rick <br>Lalonde,Week 1,37,42,79,73,2,13.5
-Travis <br>Bradley,Week 1,39,37,76,75,3,11.25
-Paul <br>Kissel,Week 1,37,37,74,76,4,9
-David <br>Resnick,Week 1,40,38,78,76,5,7.5
-Gary <br>Weich,Week 1,44,40,84,77,6,6
-John <br>Spilsbury,Week 1,43,44,87,79,7,4.5
-Greg <br>Nixon,Week 1,45,40,85,81,8,3
-Steve <br>Brown,Week 1,47,40,87,81,9,1.5
-Dean <br>Meppem,Week 1,47,40,87,85,10,0.75
+Kurtis <br>Hrycan,Week 1,39.0,36.0,75.0,71.0,1,18.75
+Ewan <br>Davies,Week 1,37.0,35.0,72.0,72.0,2,13.5
+Rick <br>Lalonde,Week 1,37.0,42.0,79.0,73.0,3,11.25
+Travis <br>Bradley,Week 1,39.0,37.0,76.0,75.0,4,8.25
+Fred <br>Schweiger,Week 1,41.0,38.0,79.0,75.0,5,8.25
+Paul <br>Kissel,Week 1,37.0,37.0,74.0,76.0,6,5.25
+David <br>Resnick,Week 1,40.0,38.0,78.0,76.0,7,5.25
+Gary <br>Weich,Week 1,44.0,40.0,84.0,77.0,8,3.0
+John <br>Spilsbury,Week 1,43.0,44.0,87.0,79.0,9,1.5
+Greg <br>Nixon,Week 1,45.0,40.0,85.0,81.0,10,0.75
+Steve <br>Brown,Week 1,47.0,40.0,87.0,81.0,11,0.75
+Jeff <br>Brisson,Week 1,45.0,44.0,89.0,83.0,12,0.75
+Dean <br>Meppem,Week 1,47.0,40.0,87.0,85.0,13,0.75
+Rick <br>Best,Week 1,49.0,50.0,99.0,88.0,14,0.75
 Kurtis <br>Hrycan,Total,,,,,1,18.75
-Rick <br>Lalonde,Total,,,,,2,13.5
-Travis <br>Bradley,Total,,,,,3,11.25
-Paul <br>Kissel,Total,,,,,4,9
-David <br>Resnick,Total,,,,,5,7.5
-Gary <br>Weich,Total,,,,,6,6
-John <br>Spilsbury,Total,,,,,7,4.5
-Greg <br>Nixon,Total,,,,,8,3
-Steve <br>Brown,Total,,,,,9,1.5
-Dean <br>Meppem,Total,,,,,10,0.75
+Ewan <br>Davies,Total,,,,,2,13.5
+Rick <br>Lalonde,Total,,,,,3,11.25
+Travis <br>Bradley,Total,,,,,4,8.25
+Fred <br>Schweiger,Total,,,,,5,8.25
+Paul <br>Kissel,Total,,,,,6,5.25
+David <br>Resnick,Total,,,,,7,5.25
+Gary <br>Weich,Total,,,,,8,3.0
+John <br>Spilsbury,Total,,,,,9,1.5
+Greg <br>Nixon,Total,,,,,10,0.75
+Steve <br>Brown,Total,,,,,11,0.75
+Jeff <br>Brisson,Total,,,,,12,0.75
+Dean <br>Meppem,Total,,,,,13,0.75
+Rick <br>Best,Total,,,,,14,0.75
