@@ -1,42 +1,42 @@
 Player,Event,Front 9,Back 9,Total Gross,Total Net,Rank,Points
-Ewan<br>Davies,Week 1,37,34,71,71,1,18.75
-Kurtis<br>Hrycan,Week 1,39,36,75,71,2,13.5
-Rick<br>Lalonde,Week 1,37,42,79,73,3,11.25
-Travis<br>Bradley,Week 1,39,37,76,75,4,8.25
-Fred<br>Schweiger,Week 1,41,38,79,75,5,8.25
-Paul<br>Kissel,Week 1,37,37,74,76,6,5.25
-David<br>Resnick,Week 1,40,38,78,76,7,5.25
-Gary<br>Weich,Week 1,44,40,84,77,8,3
-John<br>Spilsbury,Week 1,43,44,87,79,9,1.5
-Greg<br>Nixon,Week 1,45,40,85,81,10,0.75
-Steve<br>Brown,Week 1,47,40,87,81,11,0.75
-Jeff<br>Brisson,Week 1,45,44,89,83,12,0.75
-Dean<br>Meppem,Week 1,47,40,87,85,13,0.75
-Rick<br>Best,Week 1,49,50,99,88,14,0.75
-Ewan<br>Davies,Week 2,37,31,68,68,1,18.75
-Rick<br>Lalonde,Week 2,37,39,76,71,2,13.5
-Gary<br>Weich,Week 2,42,37,79,72,3,10.125
-Mel<br>Dunn,Week 2,41,39,80,72,4,10.125
-Darren<br>Emes,Week 2,39,46,85,74,5,7.5
-Shane<br>Mckee,Week 2,37,38,75,75,6,5.25
-Travis<br>Bradley,Week 2,38,39,77,75,7,5.25
-Dean<br>Meppem,Week 2,43,39,82,80,8,3
-Fred<br>Schweiger,Week 2,42,45,87,83,9,1.125
-Rick<br>Best,Week 2,46,47,93,83,10,1.125
-Ewan<br>Davies,Total,,,,,1,56.25
-Rick<br>Lalonde,Total,,,,,2,36
-Kurtis<br>Hrycan,Total,,,,,3,27
-Travis<br>Bradley,Total,,,,,4,21.75
-Fred<br>Schweiger,Total,,,,,5,17.625
-Gary<br>Weich,Total,,,,,6,16.125
-Paul<br>Kissel,Total,,,,,7,10.5
-David<br>Resnick,Total,,,,,8,10.5
-Mel<br>Dunn,Total,,,,,9,10.125
-Darren<br>Emes,Total,,,,,10,7.5
-Shane<br>Mckee,Total,,,,,11,5.25
-Dean<br>Meppem,Total,,,,,12,4.5
-John<br>Spilsbury,Total,,,,,13,3
-Rick<br>Best,Total,,,,,14,2.625
-Jeff<br>Brisson,Total,,,,,15,1.5
-Steve<br>Brown,Total,,,,,16,1.5
-Greg<br>Nixon,Total,,,,,17,1.5
+Ewan<br>Davies,Week 1,37.0,34.0,71.0,71.0,1,18.75
+Kurtis<br>Hrycan,Week 1,39.0,36.0,75.0,71.0,2,13.5
+Rick<br>Lalonde,Week 1,37.0,42.0,79.0,73.0,3,11.25
+Travis<br>Bradley,Week 1,39.0,37.0,76.0,75.0,4,8.25
+Fred<br>Schweiger,Week 1,41.0,38.0,79.0,75.0,5,8.25
+Paul<br>Kissel,Week 1,37.0,37.0,74.0,76.0,6,5.25
+David<br>Resnick,Week 1,40.0,38.0,78.0,76.0,7,5.25
+Gary<br>Weich,Week 1,44.0,40.0,84.0,77.0,8,3.0
+John<br>Spilsbury,Week 1,43.0,44.0,87.0,79.0,9,1.5
+Greg<br>Nixon,Week 1,45.0,40.0,85.0,81.0,10,0.75
+Steve<br>Brown,Week 1,47.0,40.0,87.0,81.0,11,0.75
+Jeff<br>Brisson,Week 1,45.0,44.0,89.0,83.0,12,0.75
+Dean<br>Meppem,Week 1,47.0,40.0,87.0,85.0,13,0.75
+Rick<br>Best,Week 1,49.0,50.0,99.0,88.0,14,0.75
+Ewan<br>Davies,Week 2,37.0,31.0,68.0,68.0,1,18.75
+Rick<br>Lalonde,Week 2,37.0,39.0,76.0,71.0,2,13.5
+Gary<br>Weich,Week 2,42.0,37.0,79.0,72.0,3,10.125
+Mel<br>Dunn,Week 2,41.0,39.0,80.0,72.0,4,10.125
+Darren<br>Emes,Week 2,39.0,46.0,85.0,74.0,5,7.5
+Shane<br>Mckee,Week 2,37.0,38.0,75.0,75.0,6,5.25
+Travis<br>Bradley,Week 2,38.0,39.0,77.0,75.0,7,5.25
+Dean<br>Meppem,Week 2,43.0,39.0,82.0,80.0,8,3.0
+Fred<br>Schweiger,Week 2,42.0,45.0,87.0,83.0,9,1.125
+Rick<br>Best,Week 2,46.0,47.0,93.0,83.0,10,1.125
+Ewan<br>Davies,Total,,,,,1,37.5
+Rick<br>Lalonde,Total,,,,,2,24.75
+Kurtis<br>Hrycan,Total,,,,,3,13.5
+Travis<br>Bradley,Total,,,,,4,13.5
+Gary<br>Weich,Total,,,,,5,13.125
+Mel<br>Dunn,Total,,,,,6,10.125
+Fred<br>Schweiger,Total,,,,,7,9.375
+Darren<br>Emes,Total,,,,,8,7.5
+Shane<br>Mckee,Total,,,,,9,5.25
+David<br>Resnick,Total,,,,,10,5.25
+Paul<br>Kissel,Total,,,,,11,5.25
+Dean<br>Meppem,Total,,,,,12,3.75
+Rick<br>Best,Total,,,,,13,1.875
+John<br>Spilsbury,Total,,,,,14,1.5
+Greg<br>Nixon,Total,,,,,15,0.75
+Steve<br>Brown,Total,,,,,16,0.75
+Jeff<br>Brisson,Total,,,,,17,0.75
