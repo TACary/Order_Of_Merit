@@ -1,66 +1,66 @@
 Player,Event,Front 9,Back 9,Total Gross,Total Net,Rank,Points
-Ewan<br>Davies,Week 1,37.0,34.0,71.0,71.0,1,18.75
-Kurtis<br>Hrycan,Week 1,39.0,36.0,75.0,71.0,2,13.5
-Rick<br>Lalonde,Week 1,37.0,42.0,79.0,73.0,3,11.25
-Travis<br>Bradley,Week 1,39.0,37.0,76.0,75.0,4,8.25
-Fred<br>Schweiger,Week 1,41.0,38.0,79.0,75.0,5,8.25
-Paul<br>Kissel,Week 1,37.0,37.0,74.0,76.0,6,5.25
-David<br>Resnick,Week 1,40.0,38.0,78.0,76.0,7,5.25
-Gary<br>Weich,Week 1,44.0,40.0,84.0,77.0,8,3.0
-John<br>Spilsbury,Week 1,43.0,44.0,87.0,79.0,9,1.5
-Greg<br>Nixon,Week 1,45.0,40.0,85.0,81.0,10,0.75
-Steve<br>Brown,Week 1,47.0,40.0,87.0,81.0,11,0.75
-Jeff<br>Brisson,Week 1,45.0,44.0,89.0,83.0,12,0.75
-Dean<br>Meppem,Week 1,47.0,40.0,87.0,85.0,13,0.75
-Rick<br>Best,Week 1,49.0,50.0,99.0,88.0,14,0.75
-Ewan<br>Davies,Week 2,37.0,31.0,68.0,68.0,1,18.75
-Rick<br>Lalonde,Week 2,37.0,39.0,76.0,71.0,2,13.5
-Gary<br>Weich,Week 2,42.0,37.0,79.0,72.0,3,10.125
-Mel<br>Dunn,Week 2,41.0,39.0,80.0,72.0,4,10.125
-Darren<br>Emes,Week 2,39.0,46.0,85.0,74.0,5,7.5
-Shane<br>Mckee,Week 2,37.0,38.0,75.0,75.0,6,5.25
-Travis<br>Bradley,Week 2,38.0,39.0,77.0,75.0,7,5.25
-Dean<br>Meppem,Week 2,43.0,39.0,82.0,80.0,8,3.0
-Fred<br>Schweiger,Week 2,42.0,45.0,87.0,83.0,9,1.125
-Rick<br>Best,Week 2,46.0,47.0,93.0,83.0,10,1.125
-Paul<br>Kissel,Week 3,39.0,36.0,75.0,74.0,1,12.5
-Rick<br>Lalonde,Week 3,38.0,41.0,79.0,74.0,2,9.0
-Rick<br>Best,Week 3,46.0,40.0,86.0,76.0,3,7.5
-Ewan<br>Davies,Week 3,38.0,38.0,76.0,78.0,4,6.0
-Darren<br>Emes,Week 3,45.0,45.0,90.0,79.0,5,5.0
-Steve<br>Brown,Week 4,40.0,36.0,76.0,70.0,1,12.5
-Shane<br>Mckee,Week 4,37.0,33.0,70.0,71.0,2,8.25
-Rick<br>Lalonde,Week 4,38.0,38.0,76.0,71.0,3,8.25
-Rick<br>Best,Week 4,40.0,42.0,82.0,73.0,4,6.0
-Paul<br>Kissel,Week 4,39.0,36.0,75.0,74.0,5,4.5
-Mel<br>Dunn,Week 4,42.0,39.0,81.0,74.0,6,4.5
-Jeff<br>Brisson,Week 4,40.0,39.0,79.0,75.0,7,3.0
-Paul<br>Kissel,Champs,,,150.0,146.0,1,75.0
-Rick<br>Lalonde,Champs,,,153.0,147.0,2,54.0
-Jeff<br>Brisson,Champs,,,160.0,148.0,3,45.0
-John<br>Spilsbury,Champs,,,162.0,150.0,4,36.0
-Shane<br>Mckee,Champs,,,155.0,153.0,5,30.0
-Steve<br>Brown,Champs,,,162.0,154.0,6,21.0
-Fred<br>Schweiger,Champs,,,164.0,154.0,7,21.0
-David<br>Resnick,Champs,,,163.0,155.0,8,12.0
-Ewan<br>Davies,Champs,,,155.0,157.0,9,6.0
-Travis<br>Bradley,Champs,,,165.0,159.0,10,3.0
-Rick<br>Best,Champs,,,175.0,159.0,11,3.0
-Ken<br>Grant,Champs,,,169.0,159.0,12,3.0
-Mel<br>Dunn,Champs,,,172.0,160.0,13,3.0
-Darren<br>Emes,Champs,,,173.0,161.0,14,3.0
-Gary<br>Weich,Champs,,,171.0,161.0,15,3.0
-Paul<br>Kissel,Week 6,36.0,36.0,72.0,71.0,1,12.5
-Ewan<br>Davies,Week 6,35.0,36.0,71.0,73.0,2,8.25
-John<br>Spilsbury,Week 6,42.0,39.0,81.0,73.0,3,8.25
-Tim<br>Cary,Week 6,39.0,35.0,74.0,74.0,4,6.0
-Rick<br>Lalonde,Week 6,40.0,39.0,79.0,75.0,5,5.0
-Steve<br>Brown,Week 6,39.0,43.0,82.0,76.0,6,4.0
-Travis<br>Bradley,Week 6,39.0,38.0,77.0,77.0,7,3.0
-Fred<br>Schweiger,Week 6,43.0,41.0,84.0,78.0,8,2.0
-Jeff<br>Brisson,Week 6,45.0,41.0,86.0,82.0,9,1.0
+Ewan<br>Davies,Week 1,37,34,71,71,1,18.75
+Kurtis<br>Hrycan,Week 1,39,36,75,71,2,13.5
+Rick<br>Lalonde,Week 1,37,42,79,73,3,11.25
+Travis<br>Bradley,Week 1,39,37,76,75,4,8.25
+Fred<br>Schweiger,Week 1,41,38,79,75,5,8.25
+Paul<br>Kissel,Week 1,37,37,74,76,6,5.25
+David<br>Resnick,Week 1,40,38,78,76,7,5.25
+Gary<br>Weich,Week 1,44,40,84,77,8,3
+John<br>Spilsbury,Week 1,43,44,87,79,9,1.5
+Greg<br>Nixon,Week 1,45,40,85,81,10,0.75
+Steve<br>Brown,Week 1,47,40,87,81,11,0.75
+Jeff<br>Brisson,Week 1,45,44,89,83,12,0.75
+Dean<br>Meppem,Week 1,47,40,87,85,13,0.75
+Rick<br>Best,Week 1,49,50,99,88,14,0.75
+Ewan<br>Davies,Week 2,37,31,68,68,1,18.75
+Rick<br>Lalonde,Week 2,37,39,76,71,2,13.5
+Gary<br>Weich,Week 2,42,37,79,72,3,10.125
+Mel<br>Dunn,Week 2,41,39,80,72,4,10.125
+Darren<br>Emes,Week 2,39,46,85,74,5,7.5
+Shane<br>Mckee,Week 2,37,38,75,75,6,5.25
+Travis<br>Bradley,Week 2,38,39,77,75,7,5.25
+Dean<br>Meppem,Week 2,43,39,82,80,8,3
+Fred<br>Schweiger,Week 2,42,45,87,83,9,1.125
+Rick<br>Best,Week 2,46,47,93,83,10,1.125
+Paul<br>Kissel,Week 3,39,36,75,74,1,12.5
+Rick<br>Lalonde,Week 3,38,41,79,74,2,9
+Rick<br>Best,Week 3,46,40,86,76,3,7.5
+Ewan<br>Davies,Week 3,38,38,76,78,4,6
+Darren<br>Emes,Week 3,45,45,90,79,5,5
+Steve<br>Brown,Week 4,40,36,76,70,1,12.5
+Shane<br>Mckee,Week 4,37,33,70,71,2,8.25
+Rick<br>Lalonde,Week 4,38,38,76,71,3,8.25
+Rick<br>Best,Week 4,40,42,82,73,4,6
+Paul<br>Kissel,Week 4,39,36,75,74,5,4.5
+Mel<br>Dunn,Week 4,42,39,81,74,6,4.5
+Jeff<br>Brisson,Week 4,40,39,79,75,7,3
+Paul<br>Kissel,Champs,0,0,150,146,1,75
+Rick<br>Lalonde,Champs,0,0,153,147,2,54
+Jeff<br>Brisson,Champs,0,0,160,148,3,45
+John<br>Spilsbury,Champs,0,0,162,150,4,36
+Shane<br>Mckee,Champs,0,0,155,153,5,30
+Steve<br>Brown,Champs,0,0,162,154,6,21
+Fred<br>Schweiger,Champs,0,0,164,154,7,21
+David<br>Resnick,Champs,0,0,163,155,8,12
+Ewan<br>Davies,Champs,0,0,155,157,9,6
+Travis<br>Bradley,Champs,0,0,165,159,10,3
+Rick<br>Best,Champs,0,0,175,159,11,3
+Ken<br>Grant,Champs,0,0,169,159,12,3
+Mel<br>Dunn,Champs,0,0,172,160,13,3
+Darren<br>Emes,Champs,0,0,173,161,14,3
+Gary<br>Weich,Champs,0,0,171,161,15,3
+Paul<br>Kissel,Week 6,36,36,72,71,1,12.5
+Ewan<br>Davies,Week 6,35,36,71,73,2,8.25
+John<br>Spilsbury,Week 6,42,39,81,73,3,8.25
+Tim<br>Cary,Week 6,39,35,74,74,4,6
+Rick<br>Lalonde,Week 6,40,39,79,75,5,5
+Steve<br>Brown,Week 6,39,43,82,76,6,4
+Travis<br>Bradley,Week 6,39,38,77,77,7,3
+Fred<br>Schweiger,Week 6,43,41,84,78,8,2
+Jeff<br>Brisson,Week 6,45,41,86,82,9,1
 Paul<br>Kissel,Total,,,,,1,109.75
-Rick<br>Lalonde,Total,,,,,2,101.0
+Rick<br>Lalonde,Total,,,,,2,101
 Ewan<br>Davies,Total,,,,,3,57.75
 Jeff<br>Brisson,Total,,,,,4,49.75
 John<br>Spilsbury,Total,,,,,5,45.75
@@ -74,7 +74,7 @@ David<br>Resnick,Total,,,,,12,17.25
 Gary<br>Weich,Total,,,,,13,16.125
 Darren<br>Emes,Total,,,,,14,15.5
 Kurtis<br>Hrycan,Total,,,,,15,13.5
-Tim<br>Cary,Total,,,,,16,6.0
+Tim<br>Cary,Total,,,,,16,6
 Dean<br>Meppem,Total,,,,,17,3.75
-Ken<br>Grant,Total,,,,,18,3.0
+Ken<br>Grant,Total,,,,,18,3
 Greg<br>Nixon,Total,,,,,19,0.75
